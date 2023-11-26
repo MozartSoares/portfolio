@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const LinkBotao = styled.a`
   color: #fff;
@@ -14,4 +14,4 @@ export const LinkBotao = styled.a`
     column-gap: 0;
     row-gap: 16px;
   }
-`;
+`
