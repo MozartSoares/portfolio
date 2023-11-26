@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const LinkBotao = styled.a`
-  color: #fff;
+  color: ${(props) => props.theme.corDeFundo};
   font-size: 14px;
-  background-color: #4476bf;
+  background-color: ${(props) => props.theme.corDeFundoBotao};
   text-decoratio: none;
   padding: 8px;
   display: inline-block;
